@@ -1204,3 +1204,4 @@ var res = [
 var resultado10 = res.forEach(function(el){ // forEach para que recorra
 	document.write("<b><li>Titulo : </b>" + el.title + "<br></li>");
 })
+

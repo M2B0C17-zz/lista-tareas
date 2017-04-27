@@ -12,3 +12,12 @@ function obtenerDato(){
     agregarTarea[0].innerHTML += "<li>Tarea : " + entrada + "</li>";
     entrada.value= "";
 }
+
+//Constructor para agregar las tareas
+
+    function Datos(entrada){
+	    this.userId = 1;
+	    this.id = listita.length;
+	    this.title = entrada;
+	    this.completed = false;
+    	}
