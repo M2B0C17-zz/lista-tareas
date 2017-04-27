@@ -58,7 +58,7 @@ var res = [
     "id": 10,
     "title": "illo est ratione doloremque quia maiores aut",
     "completed": true
-  },
+  }/*,
   {
     "userId": 1,
     "id": 11,
@@ -1198,6 +1198,9 @@ var res = [
     "id": 200,
     "title": "ipsam aperiam voluptates qui",
     "completed": false
-  }
+  }*/
 ];
 
+var resultado10 = res.forEach(function(el){ // forEach para que recorra
+	document.write("<br><br><b><li>Titulo : </b>" + el.title + "<br>");
+})
